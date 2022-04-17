@@ -1,42 +1,42 @@
-class bank{
-    void getroi()
+class Roi{
+    void getRoi()
     {
       System.out.println("5.5%");
     }
 }
-class hdfc extends bank
+class hdfc extends Roi
 {
-    void getroi()
+    void getRoi()
     {
       System.out.println("hdfc 4%");
     }
 }
-class pnb extends bank
+class pnb extends Roi
 {
-    void getroi()
+    void getRoi()
     {
       System.out.println("pnb 4.5%");
     }
 }
-class sbi extends bank
+class sbi extends Roi
 {
-    void getroi()
+    void getRoi()
     {
       System.out.println("sbi 5%");
     }
 }
-class call
+class bank
 {
     public static void main(String[] args) {
-        bank b;
-        b=new bank();
-        b.getroi();
-        b=new pnb();
-        b.getroi();
-        b=new hdfc();
-        b.getroi();
-        b=new sbi();
-        b.getroi();
+        Roi r;
+        r=new Roi();
+        r.getRoi();
+        r=new pnb();
+        r.getRoi();
+        r=new hdfc();
+        r.getRoi();
+        r=new sbi();
+        r.getRoi();
     }
 }
 
