@@ -10,10 +10,10 @@ public class Employee {
         this.department = department;
         this.salary = salary;
     }
-    void setDetails(int r, String na, String br, int un)
+    void setDetails(int r, String na, String dp, int s)
     {
         name = na;
-        ID = i;
+        ID = r;
         department = dp;
         salary = s;
     }
@@ -35,4 +35,3 @@ public class Employee {
         xyz.display();
     }
 }
- 
