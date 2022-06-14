@@ -48,7 +48,10 @@ public class Student {
     }
     public static void main(String[] args)
     {
+        Student detail1 = new Student(20);
+        detail.display();
         Student detail = new Student(20, "Devansh", "CSE","Dehradun","GEHU");
         detail.display();
+
     }
 }
